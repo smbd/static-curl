@@ -13,10 +13,3 @@ Grab the [latest release](https://github.com/moparisthebest/static-curl/releases
   - [curl-ppc64le](https://github.com/moparisthebest/static-curl/releases/latest/download/curl-ppc64le)
 
 Static binaries for windows are provided directly by [curl](https://curl.haxx.se/windows/) itself.
-
-Development
------------
-
-File explanation:
-  - [build.sh](build.sh) - runs inside an alpine docker container, downloads curl, verifies it with gpg, and builds it
-  - [mykey.asc](mykey.asc) - Daniel Stenberg's [GPG key](https://daniel.haxx.se/address.html) used for signing/verifying curl releases
